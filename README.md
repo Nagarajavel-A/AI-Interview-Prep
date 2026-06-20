@@ -1,16 +1,62 @@
-# React + Vite
+# AI Interview Assistant
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AI Interview Assistant is a full-stack web application that helps users prepare for interviews through resume analysis, interview question generation, mock interviews, answer evaluation, and performance reports.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Resume Upload (PDF)
+* Resume Analysis
+* HR Interview Questions
+* Technical Interview Questions
+* Resume-Based Questions
+* Mock Interview Practice
+* Answer Evaluation and Feedback
+* Performance Report Generation
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Frontend
 
-## Expanding the ESLint configuration
+* React.js
+* CSS
+* Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Backend
+
+* Spring Boot
+* Java
+
+### AI Integration
+
+* Google Gemini API
+
+## Project Workflow
+
+1. Upload Resume
+2. Analyze Resume
+3. Generate Interview Questions
+4. Attend Mock Interview
+5. Get Feedback
+6. View Performance Report
+
+## Installation
+
+### Frontend
+
+```bash
+npm install
+npm run dev
+```
+
+### Backend
+
+```bash
+mvn spring-boot:run
+```
+
+## Author
+
+**Nagarajavel A**
+
+Computer Science Engineering Student
+Java Full Stack Developer
