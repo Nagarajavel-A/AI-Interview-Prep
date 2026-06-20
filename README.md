@@ -1,62 +1,50 @@
 # AI Interview Assistant
 
-AI Interview Assistant is a full-stack web application that helps users prepare for interviews through resume analysis, interview question generation, mock interviews, answer evaluation, and performance reports.
+AI-powered Interview Preparation Platform built using React, Spring Boot, and Google Gemini AI.
 
 ## Features
 
 * Resume Upload (PDF)
-* Resume Analysis
-* HR Interview Questions
-* Technical Interview Questions
-* Resume-Based Questions
-* Mock Interview Practice
+* Automatic Skill Extraction
+* AI-generated HR Interview Questions
+* AI-generated Technical Interview Questions
 * Answer Evaluation and Feedback
-* Performance Report Generation
+* Interview Performance Report
 
 ## Tech Stack
 
 ### Frontend
 
 * React.js
-* CSS
 * Vite
+* CSS
 
 ### Backend
 
 * Spring Boot
-* Java
+* Java 17
+* REST API
 
 ### AI Integration
 
 * Google Gemini API
 
-## Project Workflow
+### Deployment
 
-1. Upload Resume
-2. Analyze Resume
-3. Generate Interview Questions
-4. Attend Mock Interview
-5. Get Feedback
-6. View Performance Report
+* Frontend: Vercel
+* Backend: Railway
 
-## Installation
+## Live Demo
 
-### Frontend
+Frontend:
+https://ai-interview-prep-nine-gamma.vercel.app
 
-```bash
-npm install
-npm run dev
-```
-
-### Backend
-
-```bash
-mvn spring-boot:run
-```
+Backend:
+https://ai-interview-assistant-backend-production.up.railway.app
 
 ## Author
 
-**Nagarajavel A**
-
-Computer Science Engineering Student
+Nagarajavel
+BE Computer Science and Engineering (Graduated)
 Java Full Stack Developer
+
