@@ -290,7 +290,7 @@ export default function App() {
     const formData = new FormData();
     formData.append("resume", uploadedFile);
 
-    const res = await fetch("http://localhost:8080/resume/upload", {
+    const res = await fetch("https://ai-interview-assistant-backend-production.up.railway.app/resume/upload", {
       method: "POST",
       body: formData,
     });
@@ -350,14 +350,14 @@ export default function App() {
     try {
       // const res = await fetch(type.endpoint);
       // const data = await res.json();
-let endpoint = "http://localhost:8080/interview/hr";
+let endpoint = "https://ai-interview-assistant-backend-production.up.railway.app/interview/hr";
 
 if (type.key === "technical") {
-  endpoint = "http://localhost:8080/technical";
+  endpoint = "https://ai-interview-assistant-backend-production.up.railway.app/technical";
 }
 
 if (type.key === "resume") {
-  endpoint = "http://localhost:8080/resume/questions";
+  endpoint = "https://ai-interview-assistant-backend-production.up.railway.app/resume/questions";
 }
 
 const res = await fetch(endpoint);
@@ -405,7 +405,7 @@ setQuestions(
     try {
       // const res = await fetch("/interview/evaluate", { method: "POST", body: JSON.stringify({ question: currentQ.text, answer }) });
       // const data = await res.json();
-    const res = await fetch("http://localhost:8080/interview/evaluate", {
+    const res = await fetch("https://ai-interview-assistant-backend-production.up.railway.app/interview/evaluate", {
   method: "POST",
   headers: {
     "Content-Type": "application/json",
